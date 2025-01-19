@@ -11,8 +11,8 @@ public class Exercicio6 {
         // Ler a idade de 20 pessoas e somá-las
         for (int i = 1; i <= 20; i++) {
             System.out.print("Digite a idade da " + i + "ª pessoa: ");
-            int idade = scanner.nextInt();  // Lê a idade digitada pelo usuário
-            somaIdades += idade;  // Adiciona a idade à soma total
+            int idade = scanner.nextInt();
+            somaIdades += idade;
         }
 
         // Exibe a soma total das idades

@@ -11,8 +11,8 @@ public class Exercicio5 {
         // Ler 10 números e somá-los
         for (int i = 1; i <= 10; i++) {
             System.out.print("Digite o " + i + "º número: ");
-            int numero = scanner.nextInt();  // Lê o número digitado pelo usuário
-            soma += numero;  // Adiciona o número à soma
+            int numero = scanner.nextInt();
+            soma += numero;
         }
 
         // Exibe a soma total dos números

@@ -7,7 +7,7 @@ public class Exercicio10 {
 
         // Solicita ao usuário que digite um número
         System.out.print("Digite um número para ver sua tabuada: ");
-        int numero = scanner.nextInt();  // Lê o número digitado pelo usuário
+        int numero = scanner.nextInt();
 
         // Exibe a tabuada do número de 1 a 10
         System.out.println("Tabuada do " + numero + ":");

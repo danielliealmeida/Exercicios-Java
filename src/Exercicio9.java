@@ -11,10 +11,10 @@ public class Exercicio9 {
         // Ler o nome e a idade de 10 pessoas
         for (int i = 1; i <= 10; i++) {
             System.out.print("Digite o nome da " + i + "ª pessoa: ");
-            String nome = scanner.nextLine();  // Lê o nome da pessoa
+            String nome = scanner.nextLine();
 
             System.out.print("Digite a idade da " + i + "ª pessoa: ");
-            int idade = scanner.nextInt();  // Lê a idade da pessoa
+            int idade = scanner.nextInt();
 
             // Limpa o buffer do Scanner (para evitar problemas ao ler o próximo nome)
             scanner.nextLine();

@@ -11,11 +11,11 @@ public class Exercicio14 {
         // Laço para ler 20 números
         for (int i = 1; i <= 20; i++) {
             System.out.print("Digite o " + i + "º número: ");
-            int numero = scanner.nextInt();  // Lê o número digitado pelo usuário
+            int numero = scanner.nextInt();
 
             // Verifica se o número está entre 0 e 100 (inclusive)
             if (numero >= 0 && numero <= 100) {
-                contador++;  // Incrementa o contador se o número estiver nesse intervalo
+                contador++;
             }
         }
 

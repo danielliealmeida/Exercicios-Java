@@ -7,11 +7,11 @@ public class Exercicio3 {
 
         // Solicita ao usuário que digite o nome
         System.out.print("Digite seu nome: ");
-        String nome = scanner.nextLine();  // Lê o nome digitado pelo usuário
+        String nome = scanner.nextLine();
 
         // Exibe o nome 10 vezes
         for (int i = 1; i <= 10; i++) {
-            System.out.println(nome);  // Exibe o nome
+            System.out.println(nome);
         }
 
         scanner.close();  // Fecha o scanner

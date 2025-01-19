@@ -8,14 +8,14 @@ public class Exercicio12 {
         // Variável para contar quantos números são pares
         int contadorPares = 0;
 
-        // Laço para ler 20 números
+        // Ler 20 números
         for (int i = 1; i <= 20; i++) {
             System.out.print("Digite o " + i + "º número: ");
-            int numero = scanner.nextInt();  // Lê o número digitado pelo usuário
+            int numero = scanner.nextInt();
 
             // Verifica se o número é par
             if (numero % 2 == 0) {
-                contadorPares++;  // Incrementa o contador se o número for par
+                contadorPares++;
             }
         }
 

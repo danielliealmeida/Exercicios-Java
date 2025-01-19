@@ -2,9 +2,9 @@ public class Exercicio2 {
     public static void main(String[] args) {
         int soma = 0;
 
-        // Laço para percorrer os números de 1 a 15
+        // Percorre os números de 1 a 15
         for (int i = 1; i <= 15; i++) {
-            soma += i;  // Adiciona o valor de 'i' à variável 'soma'
+            soma += i;
         }
 
         // Exibe o resultado da soma

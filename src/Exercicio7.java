@@ -10,12 +10,12 @@ public class Exercicio7 {
         // Ler a idade de 20 pessoas e somá-las
         for (int i = 1; i <= 20; i++) {
             System.out.print("Digite a idade da " + i + "ª pessoa: ");
-            int idade = scanner.nextInt();  // Lê a idade digitada pelo usuário
-            somaIdades += idade;  // Adiciona a idade à soma total
+            int idade = scanner.nextInt();
+            somaIdades += idade;
         }
 
         // Calcula a média das idades
-        double mediaIdades = somaIdades / 20.0;  // Dividido por 20.0 para garantir o cálculo com precisão decimal
+        double mediaIdades = somaIdades / 20.0;
 
         // Exibe a média das idades
         System.out.println("A média das idades das 20 pessoas é: " + mediaIdades);

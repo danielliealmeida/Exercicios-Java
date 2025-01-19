@@ -8,14 +8,14 @@ public class Exercicio15 {
         // Variável para armazenar a soma dos números
         int soma = 0;
 
-        // Laço que vai ler os números até que um número negativo seja digitado
+        // Ler os números até que um número negativo seja digitado
         while (true) {
             System.out.print("Digite um número (digite um número negativo para encerrar): ");
-            int numero = scanner.nextInt();  // Lê o número digitado pelo usuário
+            int numero = scanner.nextInt();
 
             // Verifica se o número é negativo
             if (numero < 0) {
-                break;  // Encerra o laço se o número for negativo
+                break;
             }
 
             // Adiciona o número à soma

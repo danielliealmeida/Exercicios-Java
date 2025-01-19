@@ -11,11 +11,11 @@ public class Exercicio8 {
         // Ler a idade de 20 pessoas e verificar se são maiores de idade
         for (int i = 1; i <= 20; i++) {
             System.out.print("Digite a idade da " + i + "ª pessoa: ");
-            int idade = scanner.nextInt();  // Lê a idade digitada pelo usuário
+            int idade = scanner.nextInt();
 
             // Verifica se a pessoa é maior de idade
             if (idade >= 18) {
-                maioresDeIdade++;  // Incrementa a contagem de maiores de idade
+                maioresDeIdade++;
             }
         }
 
