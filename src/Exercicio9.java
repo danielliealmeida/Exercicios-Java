@@ -8,7 +8,7 @@ public class Exercicio9 {
         String nomeMaisNovo = "";
         int idadeMaisNova = Integer.MAX_VALUE;  // Inicia com o maior valor possível para garantir que qualquer idade será menor
 
-        // Laço para ler o nome e a idade de 10 pessoas
+        // Ler o nome e a idade de 10 pessoas
         for (int i = 1; i <= 10; i++) {
             System.out.print("Digite o nome da " + i + "ª pessoa: ");
             String nome = scanner.nextLine();  // Lê o nome da pessoa
